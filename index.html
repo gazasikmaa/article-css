@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daftar Artikel</title>
+
+  <style>
+    /* Color */
+    :root {
+      --background: #f8fafc;
+      --card: #ffffff;
+      --text: #0f172a;
+      --muted: #64748b;
+      --accent: #0ea5e9;
+    }
+
+    /* Body */
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: var(--background);
+      color: var(--text);
+      margin: 0;
+      padding: 40px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    /* Judul */
+    h1 {
+      margin-bottom: 24px;
+      font-size: 2rem;
+      text-align: center;
+      color: var(--accent);
+      letter-spacing: 0.5px;
+    }
+
+    /* Daftar Artikel */
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      max-width: 600px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    li {
+      background: var(--card);
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+
+    a {
+      display: block;
+      text-decoration: none;
+      color: var(--text);
+      font-weight: 500;
+      padding: 16px 20px;
+      border-radius: 12px;
+      transition: color 0.2s ease;
+    }
+
+    a:hover {
+      color: var(--accent);
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 0.9rem;
+      color: var(--muted);
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>Daftar Artikel</h1>
+  <ul>
+    <li><a href="article1.html">Artikel 1: Sejarah Islam</a></li>
+    <li><a href="article2.html">Artikel 2: Masa Keemasan Islam</a></li>
+    <li><a href="article3.html">Artikel 3: Perkembangan Ilmu Pengetahuan</a></li>
+  </ul>
+
+  <footer>© 2025 Portal Sejarah Islam</footer>
+</body>
+</html>
